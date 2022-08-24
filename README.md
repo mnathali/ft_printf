@@ -5,6 +5,7 @@ Makefile creates static library and add this function to libft.
 
 ft_printf can take not defined amount of parameters as original printf do. The stdarg.h is used to this purpose.
 ft_printf uses write function to print in stdout and like original printf return number of printed symbols.
+This realization creates C-string and formatting it while parsing, writes allocated string, free it and return its lenght.
 You can use ft_printf the same way like printf or use them together.
 ft_printf do following conversions:
 
